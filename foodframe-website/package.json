@@ -1,0 +1,15 @@
+{
+  "name": "foodframe",
+  "version": "1.0.0",
+  "description": "FoodFrame cooking video ingredient analyzer website.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
